@@ -18,6 +18,11 @@ export default {
 			}
 		},
 		extend: {
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-card': 'var(--gradient-card)',
+				'gradient-coffee': 'var(--gradient-coffee)',
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -51,6 +56,15 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				coffee: {
+					bean: 'hsl(var(--coffee-bean))',
+					light: 'hsl(var(--coffee-light))',
+					cream: 'hsl(var(--coffee-cream))'
+				},
+				price: {
+					accent: 'hsl(var(--price-accent))',
+					free: 'hsl(var(--free-text))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
